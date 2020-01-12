@@ -57,46 +57,46 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f6f6fc"
+    backgroundColor: "#f6f6fc",
   },
   header: {
     paddingVertical: 20,
     paddingHorizontal: 20,
     justifyContent: "space-between",
-    flexDirection: "row"
+    flexDirection: "row",
   },
   headerButton: {
     backgroundColor: "#FFF",
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 4
+      height: 4,
     },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 9,
     borderRadius: 12,
     paddingVertical: 6,
-    paddingHorizontal: 8
+    paddingHorizontal: 8,
   },
   scroll: {
-    flex: 1
+    flex: 1,
   },
   innerScroll: {
     paddingLeft: 40,
     paddingVertical: 20,
-    alignItems: "center"
+    alignItems: "center",
   },
   spacing: {
-    marginRight: 20
+    marginRight: 20,
   },
   headerButtonText: {
     color: "#000",
     fontSize: 16,
-    fontWeight: "600"
+    fontWeight: "600",
   },
   content: {
-    flex: 1
+    flex: 1,
   },
   footer: {
     paddingVertical: 20,
@@ -107,22 +107,22 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 4
+      height: 4,
     },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 9,
-    borderRadius: 24
+    borderRadius: 24,
   },
   footerBalance: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginBottom: 20
+    marginBottom: 20,
   },
   buttonRow: {
     justifyContent: "space-between",
-    flexDirection: "row"
+    flexDirection: "row",
   },
   footerButton: {
     width: "45%",
@@ -133,34 +133,34 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 4
+      height: 4,
     },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 9,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   footerButtonText: {
     marginLeft: 8,
-    color: "#FFF"
+    color: "#FFF",
   },
   balanceContainer: { alignItems: "flex-end" },
   myBalance: {
     fontSize: 20,
     color: "#000",
-    fontWeight: "800"
+    fontWeight: "800",
   },
   libraValue: {
     fontSize: 30,
     color: "#000",
-    fontWeight: "800"
+    fontWeight: "800",
   },
   currency: {
-    color: "#c1c2c6"
+    color: "#c1c2c6",
   },
   currencyValue: {
     color: "#000",
-    fontWeight: "bold"
-  }
+    fontWeight: "bold",
+  },
 });

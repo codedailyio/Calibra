@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   container: {
     height: "60%",
     width: 250,
-    paddingTop: 20
+    paddingTop: 20,
   },
   card: {
     flex: 1,
@@ -48,14 +48,14 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 4
+      height: 4,
     },
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 9,
     borderRadius: 12,
     paddingVertical: 6,
-    paddingHorizontal: 8
+    paddingHorizontal: 8,
   },
   colorHeader: {
     width: "80%",
@@ -64,51 +64,51 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     position: "absolute",
     top: 10,
-    left: 10
+    left: 10,
   },
   imageWrap: {
     width: 60,
     height: 60,
     borderRadius: 30,
     overflow: "hidden",
-    marginBottom: 20
+    marginBottom: 20,
   },
   avatar: {
     width: "100%",
-    height: "100%"
+    height: "100%",
   },
   message: {
     color: "#000",
-    fontWeight: "bold"
+    fontWeight: "bold",
   },
   libraCount: {
     color: "#4ce3b0",
     fontSize: 40,
     fontWeight: "800",
-    marginBottom: 20
+    marginBottom: 20,
   },
   actualValue: {
-    marginBottom: 5
+    marginBottom: 5,
   },
   currency: {
-    color: "#c1c2c6"
+    color: "#c1c2c6",
   },
   currencyValue: {
     color: "#000",
-    fontWeight: "bold"
+    fontWeight: "bold",
   },
   date: {
     color: "#c1c2c6",
-    fontWeight: "500"
+    fontWeight: "500",
   },
   viewButton: {
     backgroundColor: "#F1F1F1",
     borderRadius: 8,
     paddingVertical: 8,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   viewText: {
-    fontWeight: "bold"
-  }
+    fontWeight: "bold",
+  },
 });
